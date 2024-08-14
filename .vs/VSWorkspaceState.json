@@ -1,0 +1,9 @@
+{
+  "ExpandedNodes": [
+    "\\IDMT.Domain",
+    "\\IDMT.Domain\\DTOs",
+    "\\IDMT.Domain\\Mapping",
+    "\\IDMT.Infrastructure\\Data"
+  ],
+  "PreviewInSolutionExplorer": false
+}
