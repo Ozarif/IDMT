@@ -148,8 +148,8 @@ namespace IDMT.Web.Controllers.HrJobs
 				SortDirection = dataTableParams.SortColumnDirection
 			};
 
+	var pagedResponse = await _sender.Send(paginationParam);
 
-			var pagedResponse = await _sender.Send(paginationParam);
 
 			if (pagedResponse.IsSuccess)
 			{

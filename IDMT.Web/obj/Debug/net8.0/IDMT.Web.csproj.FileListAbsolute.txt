@@ -752,3 +752,4 @@ C:\ZarifO\dotnet\DDD\IDMT\IDMT.Web\obj\Debug\net8.0\refint\IDMT.Web.dll
 C:\ZarifO\dotnet\DDD\IDMT\IDMT.Web\obj\Debug\net8.0\IDMT.Web.pdb
 C:\ZarifO\dotnet\DDD\IDMT\IDMT.Web\obj\Debug\net8.0\IDMT.Web.genruntimeconfig.cache
 C:\ZarifO\dotnet\DDD\IDMT\IDMT.Web\obj\Debug\net8.0\ref\IDMT.Web.dll
+C:\ZarifO\dotnet\DDD\IDMT\IDMT.Web\obj\Debug\net8.0\IDMT.Web.sourcelink.json

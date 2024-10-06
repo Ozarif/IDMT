@@ -22,6 +22,7 @@ namespace IDMT.Infrastructure.Configurations
 			.HasConversion(name => name.Value, value => new Name(value))
 			.IsRequired();
 
+
 			builder.HasIndex(hrJob => hrJob.Name).IsUnique();
 		}
 	}

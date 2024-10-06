@@ -5,6 +5,5 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace IDMT.Domain.Shared
-{
-    public sealed record Name(string Value);
+{    public sealed record Name(string Value);
 }

@@ -22,3 +22,4 @@ C:\ZarifO\dotnet\DDD\IDMT\IDMT.Domain\obj\Debug\net8.0\IDMT.Domain.dll
 C:\ZarifO\dotnet\DDD\IDMT\IDMT.Domain\obj\Debug\net8.0\refint\IDMT.Domain.dll
 C:\ZarifO\dotnet\DDD\IDMT\IDMT.Domain\obj\Debug\net8.0\IDMT.Domain.pdb
 C:\ZarifO\dotnet\DDD\IDMT\IDMT.Domain\obj\Debug\net8.0\ref\IDMT.Domain.dll
+C:\ZarifO\dotnet\DDD\IDMT\IDMT.Domain\obj\Debug\net8.0\IDMT.Domain.sourcelink.json

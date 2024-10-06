@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace IDMT.Application.Models
 {
-	public class PagedData<T>
+	public class PagedData<T> 
 	{
 		public IEnumerable<T> PagedList { get; private set; }
 		public int CurrentPage { get; private set; }
@@ -16,13 +16,17 @@ namespace IDMT.Application.Models
 		public bool HasPrevious => CurrentPage > 1;
 		public bool HasNext => CurrentPage < TotalPages;
 
-		public PagedData(IEnumerable<T> List, int count, int pageNumber, int pageSize)
+		public PagedData(IEnumerable<T> List, int pageNumber, int pageSize)
 		{
 			PagedList = List;
-			TotalCount = count;
+			TotalCount = List.Count();
 			PageSize = pageSize;
 			CurrentPage = pageNumber;
-			TotalPages = (int)Math.Ceiling(count / (double)pageSize);
+			TotalPages = (int)Math.Ceiling(TotalCount / (double)pageSize);
+		}
+		public static PagedData<T> Create(IEnumerable<T> List, int pageNumber, int pageSize)
+		{
+			return new PagedData<T>(List,pageNumber,pageSize);
 		}
 
 	}

@@ -93,3 +93,4 @@ C:\ZarifO\dotnet\DDD\IDMT\IDMT.Infrastructure\obj\Debug\net8.0\refint\IDMT.Infra
 C:\ZarifO\dotnet\DDD\IDMT\IDMT.Infrastructure\obj\Debug\net8.0\IDMT.Infrastructure.pdb
 C:\ZarifO\dotnet\DDD\IDMT\IDMT.Infrastructure\obj\Debug\net8.0\IDMT.Infrastructure.genruntimeconfig.cache
 C:\ZarifO\dotnet\DDD\IDMT\IDMT.Infrastructure\obj\Debug\net8.0\ref\IDMT.Infrastructure.dll
+C:\ZarifO\dotnet\DDD\IDMT\IDMT.Infrastructure\obj\Debug\net8.0\IDMT.Infrastructure.sourcelink.json
